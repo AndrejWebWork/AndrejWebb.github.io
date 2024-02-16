@@ -1,12 +1,14 @@
 img { vertical-align: top; 
 margin: 0;
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 100%){
    body {
        font-size: 12px;
        width: 100%;
        margin: 0;
    }
+   html{}
+   
 }
 html{
     scroll-behavior: smooth;
